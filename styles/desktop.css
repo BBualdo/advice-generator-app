@@ -1,0 +1,14 @@
+@media (min-width: 401px) {
+  main {
+    background-color: var(--darkGrayishBlue);
+    border-radius: 12px;
+    position: relative;
+    width: 520px;
+    padding: 40px 36px;
+    height: 320px;
+  }
+
+  .mobile-separator {
+    display: none;
+  }
+}

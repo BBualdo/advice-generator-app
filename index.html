@@ -6,109 +6,15 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <link rel="stylesheet" href="/styles/desktop.css">
+  <link rel="stylesheet" href="/styles/general.css">
+  <link rel="stylesheet" href="/styles/mobile.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Advice generator app</title>
-  <style>
-    :root {
-      /* ## Colors */
-
-      /* ### Primary */
-
-      --lightCyan: hsl(193, 38%, 86%);
-      --neonGreen: hsl(150, 100%, 66%);
-
-      /* ### Neutral */
-
-      --grayishBlue: hsl(217, 19%, 38%);
-      --darkGrayishBlue: hsl(217, 19%, 24%);
-      --darkBlue: hsl(218, 23%, 16%);
-    }
-
-    * {
-      box-sizing: border-box;
-      font-family: 'Manrope', sans-serif;
-      font-size: 28px;
-      margin: 0;
-    }
-
-    body {
-      align-items: center;
-      background-color: var(--darkBlue);
-      display: flex;
-      height: 100vh;
-      justify-content: center;
-    }
-
-    main {
-      background-color: var(--darkGrayishBlue);
-      border-radius: 12px;
-      margin: 0 16px;
-      padding: 40px 24px;
-      position: relative;
-    }
-
-    h1 {
-      color: var(--neonGreen);
-      font-size: 10px;
-      letter-spacing: 4px;
-      text-align: center;
-      text-transform: uppercase;
-    }
-
-    h2 {
-      color: var(--lightCyan);
-      font-size: 24px;
-      margin-top: 24px;
-      text-align: center;
-    }
-
-    .separator {
-      display: flex;
-      justify-content: center;
-      margin-top: 24px;
-      width: 100%;
-    }
-
-    .desktop-separator {
-      display: none;
-    }
-
-    .dice-button {
-      display: flex;
-      justify-content: center;
-      margin-top: 28px;
-      height: 100%;
-    }
-
-    .dice-button > button {
-      aspect-ratio: 1 / 1;
-      background-color: var(--neonGreen);
-      background-image: url(./images/icon-dice.svg);
-      background-position: center;
-      background-repeat: no-repeat;
-      border: none;
-      border-radius: 50%;
-      bottom: -32px;
-      cursor: pointer;
-      position: absolute;
-      transition: box-shadow .5s;
-      width: 64px;
-    }
-
-    .dice-button > button:hover {
-      box-shadow: 0 0 40px var(--neonGreen);
-    }
-
-    .dice-button > button:active {
-      background-size: 100%;
-      box-shadow: 0 0 60px var(--neonGreen);
-      transition: box-shadow .1s;
-    }
-
-  </style>
 </head>
 <body>
   <main>
