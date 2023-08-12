@@ -10,8 +10,11 @@ diceButton.addEventListener('click', () => {
   .then(data => {
     const id = data.slip.id;
     const advice = data.slip.advice;
-    adviceNumber.innerHTML = `Advice #${id}`;
-    adviceContent.innerHTML = `"${advice}"`;
+    adviceNumber.textContent = `Advice #${id}`;
+    adviceContent.textContent = `"${advice}"`;
+  })
+  .catch(error => {
+    console.error('An error occured:', error);
   })
 })
 
