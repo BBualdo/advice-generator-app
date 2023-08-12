@@ -37,7 +37,11 @@ h1 {
 }
 
 h2 {
+  align-items: center;
   color: var(--lightCyan);
+  display: flex;
+  height: 5rem;
+  justify-content: center;
   margin-top: 24px;
   text-align: center;
 }
